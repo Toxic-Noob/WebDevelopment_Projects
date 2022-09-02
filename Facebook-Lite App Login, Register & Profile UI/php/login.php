@@ -1,5 +1,16 @@
 <?php
   
+  if (!file_exists("../data/data.json")){
+    $return = [
+      "status" => "error",
+      "msg" => "User Not Exists"
+    ];
+    
+    echo json_encode($return);
+    exit;
+  }
+  
+  
   $data = json_decode(file_get_contents("../data/data.json"), true);
   
   $_POST = json_decode(file_get_contents("php://input"), true);
@@ -45,7 +56,7 @@
         "msg" => "Incorrect Username"
       ];
   }
-  
+
   echo json_encode($return);
   
 ?>
