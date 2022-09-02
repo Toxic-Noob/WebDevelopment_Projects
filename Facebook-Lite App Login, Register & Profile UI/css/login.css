@@ -1,0 +1,132 @@
+body{
+  font-family: Sans-Serif;
+}
+
+header p{
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 4px;
+  padding-bottom: 12px;
+  color: grey;
+}
+
+hr{
+  margin: 0;
+}
+
+#login-form p{
+  text-align: left;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 8px;
+}
+
+#login-form input{
+  width: 86%;
+  border: 2px solid #badaff;
+  padding: 6px;
+  padding-right: 40px;
+  margin-top: 3px;
+  font-size: 18px;
+}
+
+#login-form #password{
+  border: 2px solid #c4d2e2;
+}
+
+#login-form input:focus{
+  outline: 0;
+  border: 2px solid #badaff;
+}
+
+#imp-icon{
+  position: absolute;
+  right: 15px;
+  top: 88px;
+}
+
+#show-hide{
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  right: 12px;
+  top: 148px;
+}
+
+#login{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  background-color: #5693fe;
+  padding: 8px;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#login-form a{
+  font-size: 17px;
+  text-decoration: none;
+  color: #004bce;
+}
+
+
+#Or{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 4px;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+}
+
+#Or:before,
+#Or:after {
+  background-color: rgb(133,135,140);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 42%;
+}
+
+#Or:before {
+  right: 0.5em;
+  margin-left: -50%;
+  margin-right: 0;
+}
+
+#Or:after {
+  left: 0.5em;
+  margin-right: -50%;
+  margin-left: 0;
+}
+
+
+#signup{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #30a24b;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 4px;
+  border: 0;
+}
+
+#lang{
+  margin: 20px 8px;
+}
+
+#lang a{
+  display: block;
+  text-decoration: none;
+  color: #004bce;
+  margin: 10px 0;
+}

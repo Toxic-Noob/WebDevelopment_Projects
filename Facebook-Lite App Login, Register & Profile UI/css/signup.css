@@ -1,0 +1,125 @@
+body{
+  font-family: Sans-Serif;
+}
+
+.join{
+  margin-top: 15%;
+  text-align: center;
+}
+
+.join img{
+  width: 60%;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #6a6a6a;
+  padding: 0 10px;
+}
+
+
+.join-facebook{
+  text-align: center;
+  font-size: 17px;
+  margin: 12px 0;
+}
+
+header hr{
+  margin: 0 -3%;
+  border: none;
+  height: 1px;
+  background-color: #949494ca;
+}
+
+
+#submit{
+  width: 100%;
+  background-color: #1a74e4;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+
+.form{
+  margin-top: 25px;
+  padding: 6px;
+}
+
+.form p{
+  margin: 0;
+  font-size: 18px;
+}
+
+.form div{
+  margin: 2px;
+}
+
+.form input{
+  width: 97%;
+  font-size: 18px;
+  border: 0.5px solid grey;
+  border-radius: 0;
+  padding: 6px 4px;
+}
+
+.form input:focus{
+  outline: 0;
+}
+
+.a{
+  text-align: center;
+  margin-top: 8px;
+}
+
+a{
+  text-align: center;
+  color: #1a74e4;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Extarnal Extra Css */
+
+.name{
+  display: flex;
+}
+
+.form .names{
+  width: 94%;
+}
+
+
+.form input[type="radio"]{
+  width: auto;
+}
+
+.form label{
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 6px;
+}
+
+.form hr{
+  border: none;
+  height: 1px;
+  background-color: #949494ca;
+}
+
+.join a{
+  font-weight: normal;
+}
