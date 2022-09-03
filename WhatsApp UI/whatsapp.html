@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <script src="js/script.js" type="text/javascript" charset="utf-8"defer></script>
+  <title>WhatsApp Clone</title>
+</head>
+<body>
+  
+  <div id="header">
+    
+    <header>
+      
+      <p class="whatsapp">WhatsApp</p>
+      
+      <img src="icons/search.png" alt="Search" id="search">
+      <img src="icons/more.png" alt="More" id="more">
+      
+    </header>
+    
+    <div id="title">
+      
+      <img src="icons/camera.png" alt="Camera" id="camera">
+      
+      <button type="button" id="chats">   CHATS</button>
+      <button type="button" id="status">   STATUS</button>
+      <button type="button" id="calls">   CALLS</button>
+      
+    </div>
+  </div>
+  
+  
+  <!-- Messages -->
+  <div id="msg-details">
+   
+    <div class="msg-area">
+      <img src="img/image-01.jpg" alt="Image-01" class="picture"/>
+      
+      <div class="details">
+        <div class="item">
+          <span class="name">Ryder Thomas</span>
+          <span class="time">Yesterday</span>
+        </div>
+        
+        <div class="msg">
+          <img src="icons/sent.png" alt="" class="msg-sent">
+          <span class="msg-text">Ok, i'll wait</span>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="msg-area">
+      <img src="img/image-02.jpg" alt="Image-02" class="picture"/>
+      
+      <div class="details">
+        <div class="item">
+          <span class="name">Majid Al Shehri</span>
+          <span class="time">8/28/22</span>
+        </div>
+        
+        <div class="msg">
+          <img src="icons/sent.png" alt="" class="msg-sent">
+          <span class="msg-text">Assalamu Alaikum</span>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="msg-area">
+      <img src="img/image-03.jpg" alt="Image-03" class="picture"/>
+      
+      <div class="details">
+        <div class="item">
+          <span class="name">Joshua Woods</span>
+          <span class="time">8/27/22</span>
+        </div>
+        
+        <div class="msg">
+          <img src="icons/sent.png" alt="" class="msg-sent">
+          <span class="msg-text">How are you brother?</span>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="msg-area">
+      <img src="img/image-04.jpg" alt="Image-04" class="picture"/>
+      
+      <div class="details">
+        <div class="item">
+          <span class="name">Waylon Patterson</span>
+          <span class="time">8/27/22</span>
+        </div>
+        
+        <div class="msg">
+          <img src="icons/seen.png" alt="" class="msg-sent">
+          <span class="msg-text">No problem</span>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="msg-area">
+      <img src="img/image-05.jpg" alt="Image-05" class="picture"/>
+      
+      <div class="details">
+        <div class="item">
+          <span class="name">Hassan Suhaibani</span>
+          <span class="time">8/25/22</span>
+        </div>
+        
+        <div class="msg">
+          <img src="" alt="" class="msg-sent">
+          <span class="msg-text">Fine</span>
+        </div>
+        
+      </div>
+    </div>
+    
+    <img src="icons/new-message.png" alt="New Msg" id="new-msg">
+  </div>
+  
+  
+  <!--Status Update -->
+  <div id="status-details" style="display: none;">
+    
+    <div class="add-status">
+      
+      <img src="img/user-profile.jpg" alt="User Profile" id="user-img" class="picture">
+      
+      <div class="item">
+        <p class="my-status">My status</p>
+        <p class="disc">Tap to add status update</p>
+        
+      </div>
+    </div>
+    
+    <img src="icons/edit.png" alt="Edit" id="edit">
+    <img src="icons/camera.png" alt="Camera" id="take-image">
+  </div>
+  
+  
+  <!-- Calling Details -->
+  <div id="call-details" style="display: none;">
+    
+    <div class="call-details">
+      <img src="img/image-03.jpg" alt="Image-03" class="picture">
+    
+      <div class="item">
+      
+        <p class="name">Joshua Woods</p>
+      
+        <div class="time-details">
+          <img src="icons/arrow.png" alt="Call Status" class="call-status received">
+          
+         <span class="time">Today, 3:20 AM</span>
+        
+        </div>
+      </div>
+    
+      <img src="icons/audio-call.png" alt="Call Type" class="call-type">
+    </div>
+    
+    
+    <div class="call-details">
+      <img src="img/image-02.jpg" alt="Image-02" class="picture">
+    
+      <div class="item">
+      
+        <p class="name">Majid Al Shehri</p>
+      
+        <div class="time-details">
+          <img src="icons/arrow.png" alt="Call Status" class="call-status sent">
+          <span class="time">Yesterday, 10:40 PM</span>
+        
+        </div>
+      </div>
+    
+      <img src="icons/audio-call.png" alt="Call Type" class="call-type">
+    </div>
+    
+    
+    <div class="call-details">
+      <img src="img/image-05.jpg" alt="Image-05" class="picture">
+    
+      <div class="item">
+      
+        <p class="name">Hassan Suhaibani</p>
+      
+        <div class="time-details">
+          <img src="icons/arrow.png" alt="Call Status" class="call-status missed">
+          <span class="time">August 25, 6:30 PM</span>
+        
+        </div>
+      </div>
+    
+      <img src="icons/video-call.png" alt="Call Type" class="call-type">
+    </div>
+    
+    <img src="icons/call-someone.png" alt="Call Someone" id="call-someone">
+  </div>
+  
+  
+  
+</body>
+</html>
