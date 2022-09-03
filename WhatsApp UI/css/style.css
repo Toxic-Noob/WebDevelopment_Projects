@@ -1,0 +1,225 @@
+body{
+  font-family: Sans-Serif;
+}
+
+#header{
+  background-color: #008069;
+  margin: -3%;
+  margin-bottom: 0;
+}
+
+
+header{
+  padding: 18px;
+  margin-bottom: -15px;
+}
+
+header .whatsapp{
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+header #search{
+  position: absolute;
+  top: 18px;
+  right: 50px;
+  width: 22px;
+  height: 22px;
+}
+
+header #more{
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  height: 22px;
+}
+
+
+#title{
+  margin: 0 8px;
+  display: flex;
+}
+
+#title #camera{
+  width: 26px;
+  height: 24px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  opacity: 0.7;
+}
+
+#title button{
+  background-color: transparent;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border: 0;
+  border-bottom: 3px solid transparent;
+}
+
+#title #chats{
+  border-bottom: 3px solid white;
+}
+
+.msg-area{
+  padding: 18px 5px;
+  display: flex;
+}
+
+.picture{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.details{
+  padding: 1px 10px 0 18px;
+  width: 100%;
+  
+}
+
+#msg-details .item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.name{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.time{
+  font-size: 12px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.msg-text{
+  font-size: 14px;
+  color: grey;
+}
+
+.msg-sent{
+  width: 15px;
+}
+
+#new-msg{
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #00a883;
+  position: fixed;
+  bottom: 18px;
+  right: 14px;
+}
+
+
+.add-status{
+  padding: 18px 5px;
+  display: flex;
+}
+
+#status-details .item{
+  display: block;
+  padding: 1px 10px 0 18px;
+}
+
+.my-status{
+  margin: 4px;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.disc{
+  margin: 6px 4px;
+  font-size: 14px;
+  color: grey;
+}
+
+#edit{
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #e9ecf0;
+  box-shadow: 2px 4px 5px grey;
+  position: fixed;
+  bottom: 84px;
+  right: 22px;
+}
+
+#take-image{
+  width: 30px;
+  height: 30px;
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #00a883;
+  position: fixed;
+  bottom: 18px;
+  right: 14px;
+}
+
+
+.call-details{
+  padding: 18px 5px;
+  display: flex;
+}
+
+.call-status{
+  width: 16px;
+}
+
+.received {
+  transform: rotate(135deg);
+  filter: invert(48%) sepia(41%) saturate(710%) hue-rotate(91deg) brightness(99%) contrast(92%);
+}
+
+.sent{
+  transform: rotate(-45deg);
+  filter: invert(48%) sepia(41%) saturate(710%) hue-rotate(91deg) brightness(99%) contrast(92%);
+}
+
+.missed{
+  transform: rotate(135deg);
+  filter: invert(21%) sepia(100%) saturate(4708%) hue-rotate(337deg) brightness(82%) contrast(107%);
+}
+
+.call-type{
+  width: 50px;
+  height: 50px;
+}
+
+#call-details .item{
+  padding: 1px 10px 0 18px;
+  width: 100%;
+}
+
+.name{
+  margin: 1px 0 6px 0;
+}
+
+.time{
+  font-size: 14px;
+  color: grey;
+}
+
+#call-someone{
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #00a883;
+  position: fixed;
+  bottom: 18px;
+  right: 14px;
+}
+
